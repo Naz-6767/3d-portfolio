@@ -1,8 +1,7 @@
 import {
-  FaGithub,
-  FaInstagram,
+  FaFacebookF,
+  FaGlobe,
   FaLinkedinIn,
-  FaYoutube,
 } from "react-icons/fa6";
 import "./styles/SocialIcons.css";
 import { TbNotes } from "react-icons/tb";
@@ -11,7 +10,8 @@ import HoverLinks from "./HoverLinks";
 
 const SocialIcons = () => {
   useEffect(() => {
-    const social = document.getElementById("social") as HTMLElement;
+    const social = document.getElementById("social") as HTMLElement | null;
+    if (!social) return;
 
     social.querySelectorAll("span").forEach((item) => {
       const elem = item as HTMLElement;
@@ -47,7 +47,6 @@ const SocialIcons = () => {
       };
 
       document.addEventListener("mousemove", onMouseMove);
-
       updatePosition();
 
       return () => {
@@ -61,16 +60,7 @@ const SocialIcons = () => {
       <div className="social-icons" data-cursor="icons" id="social">
         <span>
           <a
-            href="https://github.com/akashrmalhotra"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FaGithub />
-          </a>
-        </span>
-        <span>
-          <a
-            href="https://www.linkedin.com/in/akashrmalhotra/"
+            href="https://www.linkedin.com/in/naim-siddiki/"
             target="_blank"
             rel="noreferrer"
           >
@@ -79,30 +69,26 @@ const SocialIcons = () => {
         </span>
         <span>
           <a
-            href="https://www.youtube.com/@Leftbraincoder"
+            href="https://www.facebook.com/ami.oilam.naim55/"
             target="_blank"
             rel="noreferrer"
           >
-            <FaYoutube />
+            <FaFacebookF />
           </a>
         </span>
         <span>
-          <a
-            href="https://www.instagram.com/leftbraincoder/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FaInstagram />
+          <a href="https://naimsiddiki.com/" target="_blank" rel="noreferrer">
+            <FaGlobe />
           </a>
         </span>
       </div>
       <a
         className="resume-button"
-        href="/Akash_Malhotra.pdf"
+        href="https://naimsiddiki.com/"
         target="_blank"
         rel="noreferrer"
       >
-        <HoverLinks text="RESUME" />
+        <HoverLinks text="PORTFOLIO" />
         <span>
           <TbNotes />
         </span>

@@ -8,39 +8,29 @@ const Contact = () => {
         <h3>Contact</h3>
         <div className="contact-flex">
           <div className="contact-box">
-            <h4>Connect</h4>
+            <h4>Work with me</h4>
             <p>
-              <a
-                href="https://www.linkedin.com/in/akashrmalhotra/"
-                target="_blank"
-                rel="noreferrer"
-                data-cursor="disable"
-              >
-                LinkedIn — akashrmalhotra
+              If you're serious about scaling, let's talk. I work with brands on
+              Amazon growth, TikTok Shop scaling, SEO systems, paid ads,
+              conversion improvements, and better digital execution.
+            </p>
+            <h4>Direct</h4>
+            <p>
+              <a href="mailto:me@naimsiddiki.com" data-cursor="disable">
+                me@naimsiddiki.com
               </a>
             </p>
-            <h4>Education</h4>
             <p>
-              PGPWE (MBA), Indian Institute of Management, Lucknow — 2021–2023
+              <a href="tel:07810131889" data-cursor="disable">
+                07810 131889
+              </a>
             </p>
-            <p>
-              B.Tech Computer Science, Manav Rachna Educational Institutions —
-              2009–2013
-            </p>
+            <p>Leeds, England, United Kingdom</p>
           </div>
           <div className="contact-box">
-            <h4>Social</h4>
+            <h4>Links</h4>
             <a
-              href="https://github.com/akashrmalhotra"
-              target="_blank"
-              rel="noreferrer"
-              data-cursor="disable"
-              className="contact-social"
-            >
-              GitHub <MdArrowOutward />
-            </a>
-            <a
-              href="https://www.linkedin.com/in/akashrmalhotra/"
+              href="https://www.linkedin.com/in/naim-siddiki/"
               target="_blank"
               rel="noreferrer"
               data-cursor="disable"
@@ -49,27 +39,36 @@ const Contact = () => {
               LinkedIn <MdArrowOutward />
             </a>
             <a
-              href="https://www.youtube.com/@Leftbraincoder"
+              href="https://naimsiddiki.com/"
               target="_blank"
               rel="noreferrer"
               data-cursor="disable"
               className="contact-social"
             >
-              YouTube <MdArrowOutward />
+              Website <MdArrowOutward />
             </a>
             <a
-              href="https://www.instagram.com/leftbraincoder/"
+              href="https://wave-x.org/"
               target="_blank"
               rel="noreferrer"
               data-cursor="disable"
               className="contact-social"
             >
-              Instagram <MdArrowOutward />
+              Wave-X <MdArrowOutward />
+            </a>
+            <a
+              href="https://www.facebook.com/ami.oilam.naim55/"
+              target="_blank"
+              rel="noreferrer"
+              data-cursor="disable"
+              className="contact-social"
+            >
+              Facebook <MdArrowOutward />
             </a>
           </div>
           <div className="contact-box">
             <h2>
-              Designed and Developed <br /> by <span>Akash Malhotra</span>
+              Built for <br /> <span>Naim Siddiki</span>
             </h2>
             <h5>
               <MdCopyright /> 2026

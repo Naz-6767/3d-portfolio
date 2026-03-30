@@ -7,6 +7,7 @@ const WhatIDo = () => {
   const setRef = (el: HTMLDivElement | null, index: number) => {
     containerRef.current[index] = el;
   };
+
   useEffect(() => {
     if (ScrollTrigger.isTouch) {
       containerRef.current.forEach((container) => {
@@ -24,6 +25,7 @@ const WhatIDo = () => {
       });
     };
   }, []);
+
   return (
     <div className="whatIDO">
       <div className="what-box">
@@ -87,20 +89,21 @@ const WhatIDo = () => {
             <div className="what-corner"></div>
 
             <div className="what-content-in">
-              <h3>AI & AUTOMATION</h3>
-              <h4>Workflow Intelligence for Organizations</h4>
+              <h3>MARKETPLACE GROWTH</h3>
+              <h4>Amazon &amp; TikTok Shop Scaling</h4>
               <p>
-                AI specialist helping organizations automate workflows—internal ops
-                and customer-facing—so teams ship faster with less manual work.
+                I help brands grow where revenue actually happens — listings,
+                product positioning, conversion, content systems, and marketplace
+                execution that turns traffic into sales.
               </p>
-              <h5>Skillset & tools</h5>
+              <h5>What I work on</h5>
               <div className="what-content-flex">
-                <div className="what-tags">LLMs &amp; agents</div>
-                <div className="what-tags">Workflow design</div>
-                <div className="what-tags">RAG &amp; retrieval</div>
-                <div className="what-tags">Evals &amp; guardrails</div>
-                <div className="what-tags">Integrations</div>
-                <div className="what-tags">Product strategy</div>
+                <div className="what-tags">Amazon PPC</div>
+                <div className="what-tags">Listing optimisation</div>
+                <div className="what-tags">TikTok Shop growth</div>
+                <div className="what-tags">Influencer systems</div>
+                <div className="what-tags">Product positioning</div>
+                <div className="what-tags">Conversion focus</div>
               </div>
               <div className="what-arrow"></div>
             </div>
@@ -124,21 +127,21 @@ const WhatIDo = () => {
             </div>
             <div className="what-corner"></div>
             <div className="what-content-in">
-              <h3>BUILD &amp; SCALE</h3>
-              <h4>Shipping AI in Production</h4>
+              <h3>SEO &amp; PERFORMANCE</h3>
+              <h4>Traffic, Ads &amp; Growth Systems</h4>
               <p>
-                I build the systems behind it: APIs, data, voice/real-time, and
-                full-stack products—production-ready, not slide decks.
+                I build long-term growth through SEO, paid ads, CRO, and better
+                operating systems — not just one-off campaigns, but repeatable
+                setups that support scale.
               </p>
-              <h5>Skillset & tools</h5>
+              <h5>What I work on</h5>
               <div className="what-content-flex">
-                <div className="what-tags">Node.js</div>
-                <div className="what-tags">Python</div>
-                <div className="what-tags">REST &amp; real-time APIs</div>
-                <div className="what-tags">PostgreSQL</div>
-                <div className="what-tags">MongoDB</div>
-                <div className="what-tags">React</div>
-                <div className="what-tags">Cloud &amp; infra</div>
+                <div className="what-tags">SEO strategy</div>
+                <div className="what-tags">Google Ads</div>
+                <div className="what-tags">Meta Ads</div>
+                <div className="what-tags">Landing pages</div>
+                <div className="what-tags">Operations</div>
+                <div className="what-tags">Team leadership</div>
               </div>
               <div className="what-arrow"></div>
             </div>
